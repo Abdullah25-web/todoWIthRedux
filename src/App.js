@@ -1,14 +1,9 @@
 import "./App.css";
-import TodoTaskList from "./TodoTaskList/TodoTaskList";
-import TodoTaskSubmission from "./TodoTaskSubmission/TodoTaskSubmission";
+import React from "react";
+import Route from "./Routes";
 
 function App() {
-  return (
-    <div>
-      <TodoTaskSubmission />
-      <TodoTaskList />
-    </div>
-  );
+  return <Route />;
 }
 
 export default App;
